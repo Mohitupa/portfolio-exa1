@@ -1,0 +1,77 @@
+.all {
+    display: flex;
+}
+.left {
+    width: 10%;
+}
+.center {
+    width: 80%;
+}
+.right {
+    width: 10%;
+}
+.main2 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.5);
+    overflow: hidden;
+    border: 5px solid #a0a0a0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main2 .mainHead {
+    width: 50%;
+    padding: 30px;
+    margin-top: 120px;
+    float: left;
+    color: #a0a0a0;
+}
+.main2 .mainHead h2{
+    font-size: 40px;
+}
+.main2 .mainHead h3{
+    font-size: 27.5px;
+
+}
+
+.htmlCode {
+    margin-top: 9px;
+    padding: 5px;
+    color: rgba(110, 110, 110, 0.295);
+}
+
+.htmlCode1 {
+    margin-top: 0px;
+    padding: 5px;
+    color: rgba(110, 110, 110, 0.295);
+}
+
+.titleStyle {
+    margin-bottom: 3px;
+    border-bottom: 2px solid  #a0a0a0;
+}
+.main2 .mainImg {
+    width: 50%;
+    float: right;
+    filter: grayscale(100%);
+}
+.main2 .mainImg .profimg {
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+}
+
+.scroll {
+    padding-top: 10px;
+    width: 40px;
+    height: 85px;
+    border-radius: 30px;
+    text-align: center;
+    border: 2px solid #a0a0a0;
+}
+
+.scroll:hover {
+    border: 0px;
+    box-shadow: 0 2px 12px #a0a0a0;
+}
